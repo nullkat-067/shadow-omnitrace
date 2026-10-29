@@ -1,0 +1,13 @@
+{
+  "name": "shadow-omnitrace",
+  "version": "1.0.0",
+  "description": "Shadow-OmniTrace: multi-platform public-profile intelligence toolkit for the terminal. Made by NullKat Development.",
+  "main": "intel.js",
+  "bin": { "omnitrace": "intel.js" },
+  "scripts": { "start": "node intel.js", "check": "node --check intel.js" },
+  "engines": { "node": ">=18" },
+  "keywords": ["cli", "termux", "osint", "username", "profile"],
+  "author": "NullKat Development",
+  "license": "MIT",
+  "private": true
+}
